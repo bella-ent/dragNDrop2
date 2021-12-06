@@ -39,8 +39,8 @@ function App() {
 		},
 	]);
 	const handleDragEnd = ({ destination, source }) => {
-		console.log("from", source);
-		console.log("to", destination);
+		// console.log("from", source);
+		// console.log("to", destination);
 		if (!destination) {
 			console.log("not dropped in droppable");
 			return;
